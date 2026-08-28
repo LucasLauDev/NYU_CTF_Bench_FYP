@@ -1,7 +1,0 @@
-data
-node_modules
-package-lock.json
-dist
-server/static/gamestate.json
-test
-encrypted.gpg

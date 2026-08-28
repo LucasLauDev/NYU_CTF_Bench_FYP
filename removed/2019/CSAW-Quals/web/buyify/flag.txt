@@ -1,1 +1,0 @@
-flag{npm_devs_are_pretty_bad_at_fixing_bugs}

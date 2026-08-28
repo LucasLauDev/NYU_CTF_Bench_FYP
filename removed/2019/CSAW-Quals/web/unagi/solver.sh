@@ -1,1 +1,0 @@
-curl -X PUT http://localhost:8000/upload.php -d "@solve.xml" -s | \grep "flag{";

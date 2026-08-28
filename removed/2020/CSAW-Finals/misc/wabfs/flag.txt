@@ -1,1 +1,0 @@
-flag{golang_is_the_worst_lang}              

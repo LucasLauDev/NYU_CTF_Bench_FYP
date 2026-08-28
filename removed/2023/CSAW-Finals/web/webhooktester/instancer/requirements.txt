@@ -1,5 +1,0 @@
-flask
-flask-turnstile
-redis
-docker
-requests

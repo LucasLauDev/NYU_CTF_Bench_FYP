@@ -1,1 +1,0 @@
-flag{werks_on_my_box}

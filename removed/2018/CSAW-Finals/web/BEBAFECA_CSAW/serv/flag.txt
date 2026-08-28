@@ -1,1 +1,0 @@
-flag{js_deserialization_bugs_wew_lads:sweaty:}

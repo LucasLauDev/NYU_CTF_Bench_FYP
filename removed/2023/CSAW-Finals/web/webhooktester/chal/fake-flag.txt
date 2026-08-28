@@ -1,1 +1,0 @@
-csawctf{fake_flag}

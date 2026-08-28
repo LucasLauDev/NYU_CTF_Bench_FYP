@@ -1,1 +1,0 @@
-# Rapid Cosmic Extermination (RCE)
