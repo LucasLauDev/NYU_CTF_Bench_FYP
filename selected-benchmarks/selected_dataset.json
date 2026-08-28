@@ -1,0 +1,667 @@
+{
+  "2021f-cry-interoperable": {
+    "year": "2021",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "Interoperable",
+    "path": "selected-benchmarks/2021/CSAW-Finals/crypto/Interoperable"
+  },
+  "2021f-cry-ibad": {
+    "year": "2021",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "iBad",
+    "path": "selected-benchmarks/2021/CSAW-Finals/crypto/iBad"
+  },
+  "2021f-cry-collision_course": {
+    "year": "2021",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "Collision-Course",
+    "path": "selected-benchmarks/2021/CSAW-Finals/crypto/Collision-Course"
+  },
+  "2021f-msc-terminal_velocity": {
+    "year": "2021",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "terminal-velocity",
+    "path": "selected-benchmarks/2021/CSAW-Finals/misc/terminal-velocity"
+  },
+  "2021q-cry-bits": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "Bits",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/Bits"
+  },
+  "2021q-cry-gotta_decrypt_them_all": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "Gotta-Decrypt-Them-All",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/Gotta-Decrypt-Them-All"
+  },
+  "2021q-cry-crack_me": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "Crack-Me",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/Crack-Me"
+  },
+  "2021q-cry-rsa_pop_quiz": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "RSA-Pop-Quiz",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/RSA-Pop-Quiz"
+  },
+  "2021q-cry-ecc_pop_quiz": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "ECC-Pop-Quiz",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/ECC-Pop-Quiz"
+  },
+  "2021q-cry-forgery": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "Forgery",
+    "path": "selected-benchmarks/2021/CSAW-Quals/crypto/Forgery"
+  },
+  "2021q-msc-weak_password": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "Weak-Password",
+    "path": "selected-benchmarks/2021/CSAW-Quals/misc/Weak-Password"
+  },
+  "2021q-msc-save_the_tristate": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "Save-the-Tristate",
+    "path": "selected-benchmarks/2021/CSAW-Quals/misc/Save-the-Tristate"
+  },
+  "2021q-web-no_pass_needed": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "no-pass-needed",
+    "path": "selected-benchmarks/2021/CSAW-Quals/web/no-pass-needed"
+  },
+  "2021q-web-poem_collection": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "poem-collection",
+    "path": "selected-benchmarks/2021/CSAW-Quals/web/poem-collection"
+  },
+  "2021q-web-securinotes": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "securinotes",
+    "path": "selected-benchmarks/2021/CSAW-Quals/web/securinotes"
+  },
+  "2021q-web-gatekeeping": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "gatekeeping",
+    "path": "selected-benchmarks/2021/CSAW-Quals/web/gatekeeping"
+  },
+  "2021q-web-scp_terminal": {
+    "year": "2021",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "scp-terminal",
+    "path": "selected-benchmarks/2021/CSAW-Quals/web/scp-terminal"
+  },
+  "2020f-cry-eccentric": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "eccentric",
+    "path": "selected-benchmarks/2020/CSAW-Finals/crypto/eccentric"
+  },
+  "2020f-cry-hybrid2": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "hybrid2",
+    "path": "selected-benchmarks/2020/CSAW-Finals/crypto/hybrid2"
+  },
+  "2020f-cry-the_matrix": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "the_matrix",
+    "path": "selected-benchmarks/2020/CSAW-Finals/crypto/the_matrix"
+  },
+  "2020f-cry-jackpot": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "jackpot",
+    "path": "selected-benchmarks/2020/CSAW-Finals/crypto/jackpot"
+  },
+  "2020f-web-snailrace1": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "snailrace1",
+    "path": "selected-benchmarks/2020/CSAW-Finals/web/snailrace1"
+  },
+  "2020f-web-picgram": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "picgram",
+    "path": "selected-benchmarks/2020/CSAW-Finals/web/picgram"
+  },
+  "2020f-web-sharkfacts": {
+    "year": "2020",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "sharkfacts",
+    "path": "selected-benchmarks/2020/CSAW-Finals/web/sharkfacts"
+  },
+  "2020q-cry-authy": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "authy",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/authy"
+  },
+  "2020q-cry-difib": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "difib",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/difib"
+  },
+  "2020q-cry-perfect_secrecy": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "perfect_secrecy",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/perfect_secrecy"
+  },
+  "2020q-cry-adversarial": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "adversarial",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/adversarial"
+  },
+  "2020q-cry-smallsurp": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "smallsurp",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/smallsurp"
+  },
+  "2020q-cry-modus_operandi": {
+    "year": "2020",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "modus_operandi",
+    "path": "selected-benchmarks/2020/CSAW-Quals/crypto/modus_operandi"
+  },
+  "2022f-cry-open_ellipti_ph": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "open-ELLIPTI-PH!",
+    "path": "selected-benchmarks/2022/CSAW-Finals/crypto/open-ELLIPTI-PH!"
+  },
+  "2022f-cry-polly_crack_this": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "polly-crack-this",
+    "path": "selected-benchmarks/2022/CSAW-Finals/crypto/polly-crack-this"
+  },
+  "2022f-cry-m_ster_0f_prn9": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "M@sTEr 0F PrN9",
+    "path": "selected-benchmarks/2022/CSAW-Finals/crypto/M@sTEr 0F PrN9"
+  },
+  "2022f-cry-the_lengths_we_extend_ourselves": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "The Lengths we Extend Ourselves",
+    "path": "selected-benchmarks/2022/CSAW-Finals/crypto/The Lengths we Extend Ourselves"
+  },
+  "2022f-msc-farmlang": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "Farmlang",
+    "path": "selected-benchmarks/2022/CSAW-Finals/misc/Farmlang"
+  },
+  "2022f-msc-embrey0_leak": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "eMbrEy0 LEaK",
+    "path": "selected-benchmarks/2022/CSAW-Finals/misc/eMbrEy0 LEaK"
+  },
+  "2022f-msc-super_guesser_g_me": {
+    "year": "2022",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "SupEr GUeSsEr G@me",
+    "path": "selected-benchmarks/2022/CSAW-Finals/misc/SupEr GUeSsEr G@me"
+  },
+  "2022q-cry-beyond_quantum": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "Beyond-Quantum",
+    "path": "selected-benchmarks/2022/CSAW-Quals/crypto/Beyond-Quantum"
+  },
+  "2022q-cry-too_much_in_common": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "too-much-in-common",
+    "path": "selected-benchmarks/2022/CSAW-Quals/crypto/too-much-in-common"
+  },
+  "2022q-cry-gift_shop": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "gift-shop",
+    "path": "selected-benchmarks/2022/CSAW-Quals/crypto/gift-shop"
+  },
+  "2022q-cry-gotta_crack_them_all": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "gotta-crack-them-all",
+    "path": "selected-benchmarks/2022/CSAW-Quals/crypto/gotta-crack-them-all"
+  },
+  "2022q-cry-not_too_taxing": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "not-too-taxing",
+    "path": "selected-benchmarks/2022/CSAW-Quals/crypto/not-too-taxing"
+  },
+  "2022q-msc-quantum_leap": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "quantum-leap",
+    "path": "selected-benchmarks/2022/CSAW-Quals/misc/quantum-leap"
+  },
+  "2022q-msc-ezmaze": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "ezMaze",
+    "path": "selected-benchmarks/2022/CSAW-Quals/misc/ezMaze"
+  },
+  "2022q-msc-cattheflag": {
+    "year": "2022",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "CatTheFlag",
+    "path": "selected-benchmarks/2022/CSAW-Quals/misc/CatTheFlag"
+  },
+  "2023f-cry-nervcenter": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "nervcenter",
+    "path": "selected-benchmarks/2023/CSAW-Finals/crypto/nervcenter"
+  },
+  "2023f-cry-textbook_rsa": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "Textbook-RSA",
+    "path": "selected-benchmarks/2023/CSAW-Finals/crypto/Textbook-RSA"
+  },
+  "2023f-cry-describeme": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "DescribeMe",
+    "path": "selected-benchmarks/2023/CSAW-Finals/crypto/DescribeMe"
+  },
+  "2023f-msc-pyjail": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "pyjail",
+    "path": "selected-benchmarks/2023/CSAW-Finals/misc/pyjail"
+  },
+  "2023f-msc-vectors_machine": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "vectors_machine",
+    "path": "selected-benchmarks/2023/CSAW-Finals/misc/vectors_machine"
+  },
+  "2023f-msc-urkel": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "urkel",
+    "path": "selected-benchmarks/2023/CSAW-Finals/misc/urkel"
+  },
+  "2023f-msc-sigmaslogistics": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "sigmaslogistics",
+    "path": "selected-benchmarks/2023/CSAW-Finals/misc/sigmaslogistics"
+  },
+  "2023f-web-shreeramquest": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "ShreeRamQuest",
+    "path": "selected-benchmarks/2023/CSAW-Finals/web/ShreeRamQuest"
+  },
+  "2023f-web-triathlon_or_sprint": {
+    "year": "2023",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "triathlon_or_sprint",
+    "path": "selected-benchmarks/2023/CSAW-Finals/web/triathlon_or_sprint"
+  },
+  "2023q-cry-mental_poker": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "mental-poker",
+    "path": "selected-benchmarks/2023/CSAW-Quals/crypto/mental-poker"
+  },
+  "2023q-cry-circles": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "circles",
+    "path": "selected-benchmarks/2023/CSAW-Quals/crypto/circles"
+  },
+  "2023q-cry-lottery": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "lottery",
+    "path": "selected-benchmarks/2023/CSAW-Quals/crypto/lottery"
+  },
+  "2023q-msc-android_dropper": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "android-dropper",
+    "path": "selected-benchmarks/2023/CSAW-Quals/misc/android-dropper"
+  },
+  "2023q-msc-tradinggame": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "TradingGame",
+    "path": "selected-benchmarks/2023/CSAW-Quals/misc/TradingGame"
+  },
+  "2023q-msc-linear_aggressor": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "linear_aggressor",
+    "path": "selected-benchmarks/2023/CSAW-Quals/misc/linear_aggressor"
+  },
+  "2023q-web-cookie_injection": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "cookie-injection",
+    "path": "selected-benchmarks/2023/CSAW-Quals/web/cookie-injection"
+  },
+  "2023q-web-philanthropy": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "philanthropy",
+    "path": "selected-benchmarks/2023/CSAW-Quals/web/philanthropy"
+  },
+  "2023q-web-rainbow_notes": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "rainbow-notes",
+    "path": "selected-benchmarks/2023/CSAW-Quals/web/rainbow-notes"
+  },
+  "2023q-web-smug_dino": {
+    "year": "2023",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "smug-dino",
+    "path": "selected-benchmarks/2023/CSAW-Quals/web/smug-dino"
+  },
+  "2019f-cry-macrypto": {
+    "year": "2019",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "macrypto",
+    "path": "selected-benchmarks/2019/CSAW-Finals/crypto/macrypto"
+  },
+  "2019f-msc-alive": {
+    "year": "2019",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "alive",
+    "path": "selected-benchmarks/2019/CSAW-Finals/misc/alive"
+  },
+  "2019f-web-biometric": {
+    "year": "2019",
+    "event": "CSAW-Finals",
+    "category": "web",
+    "challenge": "biometric",
+    "path": "selected-benchmarks/2019/CSAW-Finals/web/biometric"
+  },
+  "2019q-cry-des2bites": {
+    "year": "2019",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "DES2Bites",
+    "path": "selected-benchmarks/2019/CSAW-Quals/crypto/DES2Bites"
+  },
+  "2019q-cry-brillouin": {
+    "year": "2019",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "brillouin",
+    "path": "selected-benchmarks/2019/CSAW-Quals/crypto/brillouin"
+  },
+  "2019q-cry-count_on_me": {
+    "year": "2019",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "count_on_me",
+    "path": "selected-benchmarks/2019/CSAW-Quals/crypto/count_on_me"
+  },
+  "2019q-cry-super_curve": {
+    "year": "2019",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "super_curve",
+    "path": "selected-benchmarks/2019/CSAW-Quals/crypto/super_curve"
+  },
+  "2019q-cry-byte_me": {
+    "year": "2019",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "byte_me",
+    "path": "selected-benchmarks/2019/CSAW-Quals/crypto/byte_me"
+  },
+  "2017f-cry-ecxor": {
+    "year": "2017",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "ECXOR",
+    "path": "selected-benchmarks/2017/CSAW-Finals/crypto/ECXOR"
+  },
+  "2017f-cry-lupin": {
+    "year": "2017",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "Lupin",
+    "path": "selected-benchmarks/2017/CSAW-Finals/crypto/Lupin"
+  },
+  "2017q-cry-another_xor": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "another_xor",
+    "path": "selected-benchmarks/2017/CSAW-Quals/crypto/another_xor"
+  },
+  "2017q-cry-baby_crypt": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "baby_crypt",
+    "path": "selected-benchmarks/2017/CSAW-Quals/crypto/baby_crypt"
+  },
+  "2017q-cry-almost_xor": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "almost_xor",
+    "path": "selected-benchmarks/2017/CSAW-Quals/crypto/almost_xor"
+  },
+  "2017q-msc-cvv": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "cvv",
+    "path": "selected-benchmarks/2017/CSAW-Quals/misc/cvv"
+  },
+  "2017q-msc-serial": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "serial",
+    "path": "selected-benchmarks/2017/CSAW-Quals/misc/serial"
+  },
+  "2017q-web-littlequery": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "littlequery",
+    "path": "selected-benchmarks/2017/CSAW-Quals/web/littlequery"
+  },
+  "2017q-web-orangev2": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "orangev2",
+    "path": "selected-benchmarks/2017/CSAW-Quals/web/orangev2"
+  },
+  "2017q-web-orange": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "orange",
+    "path": "selected-benchmarks/2017/CSAW-Quals/web/orange"
+  },
+  "2017q-web-notmycupofcoffe": {
+    "year": "2017",
+    "event": "CSAW-Quals",
+    "category": "web",
+    "challenge": "notmycupofcoffe",
+    "path": "selected-benchmarks/2017/CSAW-Quals/web/notmycupofcoffe"
+  },
+  "2018f-cry-asr4cr": {
+    "year": "2018",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "asr4cr",
+    "path": "selected-benchmarks/2018/CSAW-Finals/crypto/asr4cr"
+  },
+  "2018f-cry-lost_mind": {
+    "year": "2018",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "lost_mind",
+    "path": "selected-benchmarks/2018/CSAW-Finals/crypto/lost_mind"
+  },
+  "2018f-cry-distastrous_security_apparatus": {
+    "year": "2018",
+    "event": "CSAW-Finals",
+    "category": "crypto",
+    "challenge": "distastrous_security_apparatus",
+    "path": "selected-benchmarks/2018/CSAW-Finals/crypto/distastrous_security_apparatus"
+  },
+  "2018f-msc-showdown": {
+    "year": "2018",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "showdown",
+    "path": "selected-benchmarks/2018/CSAW-Finals/misc/showdown"
+  },
+  "2018f-msc-leaked_flag": {
+    "year": "2018",
+    "event": "CSAW-Finals",
+    "category": "misc",
+    "challenge": "leaked_flag",
+    "path": "selected-benchmarks/2018/CSAW-Finals/misc/leaked_flag"
+  },
+  "2018q-cry-lowe": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "lowe",
+    "path": "selected-benchmarks/2018/CSAW-Quals/crypto/lowe"
+  },
+  "2018q-cry-collusion": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "collusion",
+    "path": "selected-benchmarks/2018/CSAW-Quals/crypto/collusion"
+  },
+  "2018q-cry-babycrypto": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "babycrypto",
+    "path": "selected-benchmarks/2018/CSAW-Quals/crypto/babycrypto"
+  },
+  "2018q-cry-flatcrypt": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "crypto",
+    "challenge": "flatcrypt",
+    "path": "selected-benchmarks/2018/CSAW-Quals/crypto/flatcrypt"
+  },
+  "2018q-msc-short_circuit": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "Short-Circuit",
+    "path": "selected-benchmarks/2018/CSAW-Quals/misc/Short-Circuit"
+  },
+  "2018q-msc-bin_t": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "bin_t",
+    "path": "selected-benchmarks/2018/CSAW-Quals/misc/bin_t"
+  },
+  "2018q-msc-algebra": {
+    "year": "2018",
+    "event": "CSAW-Quals",
+    "category": "misc",
+    "challenge": "algebra",
+    "path": "selected-benchmarks/2018/CSAW-Quals/misc/algebra"
+  }
+}
