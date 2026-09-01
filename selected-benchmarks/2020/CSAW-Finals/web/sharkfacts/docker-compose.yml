@@ -1,0 +1,12 @@
+services:
+  sharkfacts:
+    build: .
+    ports:
+      - "8089:8089"
+    networks:
+      - vulnbot-net
+
+networks:
+  vulnbot-net:
+    name: vulnbot-net
+    external: true
