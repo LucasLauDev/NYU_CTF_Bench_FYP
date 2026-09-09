@@ -94,7 +94,7 @@ All we left to do is run the attack to obtain the flag:
 
 ![flag](https://github.com/osirislab/CSAW-CTF-2021-Quals/blob/main/crypto/Forgery/testing/writeup-files/flag.JPG)
 
-`flag{7h3_4rr0wv3r53_15_4w350M3!}`
+`[REDACTED_FLAG]`
 
 
 ## Notes For Developers

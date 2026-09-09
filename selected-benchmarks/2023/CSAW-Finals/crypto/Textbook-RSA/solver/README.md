@@ -11,7 +11,7 @@ Our decryption oracle accepts any byte array input but the values 0,1 or the giv
 The public parameters associated with the decryption oracle (public key (e), modulus (n)) and the challenge ciphertext (c) can be found in param.py.
 
 # Flag
-`csawctf{D0n't_us3_t3xtb00k_RsA1t_w1tH_N0_apPr0pr1at3_pAdd1n6}`
+`[REDACTED_FLAG]`
 
 # Solution
 > As detailed as possible description of the solution. Not just the solver script. As full a description as possible of the solution for the challenge.

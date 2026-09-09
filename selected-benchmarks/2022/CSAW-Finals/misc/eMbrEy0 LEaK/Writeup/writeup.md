@@ -182,5 +182,5 @@ Command > breakpoint()
 (Pdb) import os;os.system("ls")
 __pycache__ flag service.py 
 (Pdb) import os;os.system("cat f*")
-flag{y0U_f1NiSHeD_EmpR3Yo_lAeK_Ch@L1EnGe_aNd_uSE_hE1p_T0_Le@k_ThE_vAr}
+[REDACTED_FLAG]
 ```

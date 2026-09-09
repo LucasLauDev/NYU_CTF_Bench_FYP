@@ -198,7 +198,7 @@ Then all we left to do is run the attack with the given parameters to obtain the
 
 ![singular_completion](https://github.com/osirislab/CSAW-CTF-2021-Quals/blob/main/crypto/ECC-Pop-Quiz/testing/writeup-files/singular_completion.JPG)
 
-`flag{4Ll_0f_tH353_4tT4cK5_R3lY_0N_51mPl1FY1n9_th3_D15cr3t3_l09_pr08l3m}`
+`[REDACTED_FLAG]`
 
 ## Notes For Developers
 
