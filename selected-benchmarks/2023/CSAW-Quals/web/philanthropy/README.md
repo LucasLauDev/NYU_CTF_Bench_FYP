@@ -10,9 +10,7 @@ This challenge requires the user to interact with the website and gain an unders
 
 sudo ./execute_challenge.sh
 
-# Flag
 
-csawctf{K3pt_y0u_Wa1t1ng_HUh}
 
 # Solution
 

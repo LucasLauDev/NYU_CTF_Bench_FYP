@@ -6,4 +6,3 @@ Category: Forensics(/Reversing)
 
 Points: 200
 
-Flag: flag{stay_in_college_kids}

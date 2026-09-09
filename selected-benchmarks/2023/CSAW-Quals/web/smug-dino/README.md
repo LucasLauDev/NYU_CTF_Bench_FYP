@@ -11,9 +11,7 @@ Smuggle HTTP request on vulnerable NGINX server to get a flag.
         sudo docker build . -t dino
         sudo docker run -d -p 3009:3009 dino:latest
 
-# Flag
 
-csawctf{d0nt_smuggl3_Fla6s_!}
 
 # Author
 rollingcoconut
@@ -73,7 +71,7 @@ rollingcoconut
         Content-Length: 29
         Connection: keep-alive
         
-        csawctf{d0nt_smuggl3_Fla6s_!}
+        csawctf{...}
         
         
         # TELNET 
@@ -111,7 +109,7 @@ rollingcoconut
         Content-Length: 29
         Connection: keep-alive
         
-        csawctf{d0nt_smuggl3_Fla6s_!}
+        csawctf{...}
         Connection closed by foreign host.
         
 

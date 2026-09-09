@@ -11,9 +11,7 @@ My previous flag file got encrypted by some dumb ransomware. They didn't even te
 
 Handout: [gatekeeping.tar.gz](gatekeeping.tar.gz)
 
-Points: 400? Needs playtesting
 
-Flag: `flag{gunicorn_probably_should_not_do_that}`
 
 Setup: `docker build -t gatekeeping .` and then run the container with port 80 forwarded to whatever port you want
 

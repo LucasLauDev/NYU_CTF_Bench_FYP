@@ -8,9 +8,6 @@
 
 This challenge has the TCP dump of a telnet service.
 
-# Flag
-
-flag{T00_L@ZY_4_$3CUR1TY}
 
 # Solution
 > As detailed as possible description of the solution. Not just the solver script. As full a description as possible of the solution for the challenge.

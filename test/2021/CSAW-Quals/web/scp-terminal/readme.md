@@ -14,9 +14,7 @@ https://scp-terminal.foundation/
 
 Handout: None 
 
-Points: 300-350
 
-Flag: `flag{CSP_def3a7s_SCP_n0t_s0_s3cure_n0w_huh}`
 
 ## Solution
 

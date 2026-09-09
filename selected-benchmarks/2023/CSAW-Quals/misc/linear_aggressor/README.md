@@ -13,8 +13,7 @@ You can use docker to deploy the challenge. It is hosted on an Ubuntu image
 `docker`
 
 
-## Flag
-csawctf{m0d31_5t341ing_i5_b4d}
+
 
 
 ## Solution
