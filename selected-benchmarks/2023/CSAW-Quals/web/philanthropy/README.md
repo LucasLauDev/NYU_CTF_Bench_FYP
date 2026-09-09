@@ -10,7 +10,9 @@ This challenge requires the user to interact with the website and gain an unders
 
 sudo ./execute_challenge.sh
 
+# Flag
 
+[REDACTED_FLAG]
 
 # Solution
 

@@ -7,7 +7,9 @@ Contains the LFI challenge for the upcoming CSAW quals
 Hey! I made a cool websites that shows off some poems. See if you can find the flag somewhere!
 
 
+# Flag
 
+`[REDACTED_FLAG]`
 
 
 
@@ -44,7 +46,7 @@ http://localhost:5000/poems/?poem=../flag.txt
 It shows:
 
 ```
-flag{...}
+[REDACTED_FLAG]
 ```
 
 # Comment

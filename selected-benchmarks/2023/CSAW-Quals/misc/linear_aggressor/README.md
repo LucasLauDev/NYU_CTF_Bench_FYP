@@ -13,7 +13,8 @@ You can use docker to deploy the challenge. It is hosted on an Ubuntu image
 `docker`
 
 
-
+## Flag
+[REDACTED_FLAG]
 
 
 ## Solution

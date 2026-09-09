@@ -1,0 +1,12 @@
+services:
+  snailrace1:
+    build: .
+    ports:
+      - "49383:49383"
+    networks:
+      - vulnbot-net
+
+networks:
+  vulnbot-net:
+    name: vulnbot-net
+    external: true

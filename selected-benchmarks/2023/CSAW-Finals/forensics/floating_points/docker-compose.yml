@@ -1,0 +1,12 @@
+services:
+  floating-points:
+    build: .
+    ports:
+      - "8000:80"
+    networks:
+      - vulnbot-net
+
+networks:
+  vulnbot-net:
+    name: vulnbot-net
+    external: true

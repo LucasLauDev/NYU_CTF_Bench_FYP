@@ -34,5 +34,5 @@ Functionally, the query goes:
 - To: `SELECT rowid FROM users WHERE uname = '${name}'`
 
 ###### Flag:
-- flag{wh0_n3ed5_a_p4ssw0rd_anyw4y}
+- [REDACTED_FLAG]
 

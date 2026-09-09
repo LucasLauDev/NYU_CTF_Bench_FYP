@@ -88,7 +88,7 @@ This was tested in house at Vector35. We didn't have time on our end to do anyth
 
 544fb552b8d17b452691ad3ecac50d0a  solution.py
 The flag that it returns:
-`flag{WithYourCapabilitiesCombinedIAmCaptainTerminal}`
+`[REDACTED_FLAG]`
 
 And the solver script itself, which works (note you have to enter the hostname and port via CLI to connect):
 ```

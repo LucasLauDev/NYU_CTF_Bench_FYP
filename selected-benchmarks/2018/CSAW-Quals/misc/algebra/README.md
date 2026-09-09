@@ -9,6 +9,9 @@ AlgebrA
 
 - 100
 
+# Flag
+
+- [REDACTED_FLAG]
 
 # Setup
 
