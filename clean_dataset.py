@@ -17,7 +17,7 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 logger = logging.getLogger("clean_dataset")
 
-DEFAULT_CATEGORIES = ["forensics", "web", "misc"]
+DEFAULT_CATEGORIES = ["forensics", "web", "misc", "crypto"]
 DEFAULT_SRC_JSON = "selected-benchmarks/selected_dataset.json"
 DEFAULT_DEST_DIR = "selected-benchmarks"
 DEFAULT_OUTPUT_JSON = "selected-benchmarks/selected_dataset.json"
@@ -182,7 +182,7 @@ def main():
         "--categories",
         nargs="+",
         default=DEFAULT_CATEGORIES,
-        help="Categories to filter (default: forensics web misc)",
+        help="Categories to filter (default: forensics web misc crypto)",
     )
     parser.add_argument(
         "--require-docker",
