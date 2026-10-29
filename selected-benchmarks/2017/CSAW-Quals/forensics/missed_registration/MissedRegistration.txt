@@ -1,4 +1,0 @@
-ChallengeName: Missed Registration
-Flag: [REDACTED_FLAG]
-Description: It's registration day! These forms just seem longer and longer...
-File for challenge: cap.pcap

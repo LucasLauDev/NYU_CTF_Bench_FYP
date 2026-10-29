@@ -1,18 +1,33 @@
-# Anothor_Ciphor
+# Another_XOR
 
-Challengers will be given the cipher:
+## Description
+Hey, hey can you find my secret?
+Break the XOR encryption to recover the flag.
 
-274c10121a0100495b502d551c557f0b0833585d1b27030b5228040d3753490a1c025415051525455118001911534a0052560a14594f0b1e490a010c4514411e070014615a181b02521b580305170002074b0a1a4c414d1f1d171d00151b1d0f480e491e0249010c150050115c505850434203421354424c1150430b5e094d144957080d4444254643
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
+The following paths and files are available for download:
+- `/encrypted`: Hex-encoded ciphertext message
+- `/cipher.py`: Python cipher generation script
 
-plaintext:
-flag                                  key                                                                hash(flag+key)
-flag{sti11_us3_da_x0r_for_my_s3cratz}|A quart jar of oil mixed with zinc oxide makes a very bright paint|d5111350bbbe105121b9a9496ac08df2
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download files via cURL
+curl -O http://<challenge-host>:8000/encrypted
+curl -O http://<challenge-host>:8000/cipher.py
 
-The key is repeated to be able to encrypt the plaintext.
+# Or download via wget
+wget http://<challenge-host>:8000/encrypted
+wget http://<challenge-host>:8000/cipher.py
+```
 
-# Description
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline cryptography analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
 
-Hey, hey can you find my secret.
-
-274c10121a0100495b502d551c557f0b0833585d1b27030b5228040d3753490a1c025415051525455118001911534a0052560a14594f0b1e490a010c4514411e070014615a181b02521b580305170002074b0a1a4c414d1f1d171d00151b1d0f480e491e0249010c150050115c505850434203421354424c1150430b5e094d144957080d4444254643
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline cryptography analysis locally to uncover the flag.

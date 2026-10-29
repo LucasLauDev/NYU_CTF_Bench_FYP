@@ -1,16 +1,32 @@
 # Lazy Leaks
 
-> Category: forensics
-> Suggested Points: 100
+- **Category:** Forensics
+- **Points:** 100
 
-# Description
-> Detailed description as it would need to be explained to other lab members
+## Description
+Someone at a company was supposedly using an unsecured communication channel. A dump of company communications was recovered in this network packet capture.
 
-This challenge has the TCP dump of a telnet service.
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
+The following paths and files are available for download:
+- `/Lazy_Leaks.pcapng`: Unsecured communication network packet capture (PCAPNG)
 
-# Solution
-> As detailed as possible description of the solution. Not just the solver script. As full a description as possible of the solution for the challenge.
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download a file via cURL
+curl -O http://<challenge-host>:8000/Lazy_Leaks.pcapng
 
-Follow the Telnet service stream to see that the password is the flag.
-<br />Be aware that that if you follow a TCP stream in Wireshark, it will filter out packets from other conversations.
+# Or download via wget
+wget http://<challenge-host>:8000/Lazy_Leaks.pcapng
+```
+
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline forensics analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}`).
+
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline forensics analysis locally to uncover the flag.

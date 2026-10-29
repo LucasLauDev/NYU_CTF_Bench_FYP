@@ -1,29 +1,32 @@
-# Title
+# Rewind
 
-Rewind
+## Description
+Sometimes you have to look back and replay what has been done right and wrong.
 
-# Description
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
-- Sometimes you have to look back and replay what's has been done right and wrong  
+The following paths and files are available for download:
+- `/memstrings.cpp`: Memory string extraction C++ source code
+- `/memstrings.h`: Memory string extraction C++ header file
 
-# Points
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download files via cURL
+curl -O http://<challenge-host>:8000/memstrings.cpp
+curl -O http://<challenge-host>:8000/memstrings.h
 
-- TBD
+# Or download via wget
+wget http://<challenge-host>:8000/memstrings.cpp
+wget http://<challenge-host>:8000/memstrings.h
+```
 
-# Flag
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline forensics analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
 
-`flag{RUN_R3C0RD_ANA1YZ3_R3P3AT}`
-
-# Setup
-
-- None
-
-# Notes
-
-- Provide the snapshot to the competitors
-- Memory 8192
-
-# Solution
-
-- `./qemu-system-x86_64 -replay rewind -panda memstrings:name=flag,len=31 -m 8192`
-- `gunzip -d flag_strings.txt.gz && cat flag_strings.txt | grep "flag{"`
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline forensics analysis locally to uncover the flag.

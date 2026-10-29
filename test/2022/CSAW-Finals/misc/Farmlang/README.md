@@ -1,29 +1,31 @@
-# Farmlan~~d~~g 
+# Farmlandg
 
-> Category: misc
-> Suggested Points: -
+- **Category:** Miscellaneous
 
-# Description
-> Detailed description as it would need to be explained to other lab members
+## Description
+The goal of the challenge is to solve three related problems across steganography, WiFi cracking, and esoteric programming languages.
 
-The goal of the challenge is to be able to solve three related problems about three different cybersecurity topics such as: steganography, WiFi Cracking and esoteric languages (programming).
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
-# Deployment
-> Any special information about the deployment if there is a server component
+The following paths and files are available for download:
+- `/farmlang.jpg`: Esoteric visual language symbols and puzzle image
 
-The .jpg is the only file needed for deployment. This is an offline challenge.
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download a file via cURL
+curl -O http://<challenge-host>:8000/farmlang.jpg
 
-# Flag
-Au+umn2022^
+# Or download via wget
+wget http://<challenge-host>:8000/farmlang.jpg
+```
 
-# Solution
-> As detailed as possible description of the solution. Not just the solver script. As full a description as possible of the solution for the challenge.
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
 
-The ideal solution for the challenge should be to:
-- Analyze the metadata of the image and observe the Title field.
-- Decode the base64 Title field.
-- Extract with any stego tool the .zip hidden inside the file using the password decoded from the b64 above.
-- Decompress the .zip hidden file and get the handshake and animal files.
-- Realize that one of the files is not only an animal sound, it is also code written in COW, an esoteric language.
-- Copy/paste the code into a COW interpreter and observing that the result is a link to an online dictionary word.
-- Decrypt the WiFi handshake file available using the above dictionary and any WiFi cracking tool.
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline miscellaneous analysis locally to uncover the flag.

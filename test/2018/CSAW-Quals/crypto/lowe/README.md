@@ -1,29 +1,41 @@
-# Details
-  Participant receives :
- * (e,N): 1536-bit RSA public key; PEM encoded to make it look like "real key"
- * Y\_os: RSA encrypted symmetric key; formatted as big-endian octet string
- * ciphertext C
- The goal is to decrypt ciphertext C without RSA private key.
+# Lowe
 
- To generate a challenge, let's assume secret S which participant wants to "capture"
- is represented as a 64-byte string of bytes. It could be a secret password,
- string "FLAG" repeated 16 times or URL. It must have a length of exactly 64-bytes.
+## Description
+A secret file has been encrypted using a combination of RSA and a symmetric key.
+Can you analyze the public key and encrypted payloads to recover the plaintext?
 
- Following components are generated:
- * RSA/1536 keypair, with public exponent e=3 and modulus N. The key can be
-   encoded to PEM format to make challenge look more realistic.
- * Random 512-bit number K from a range `N^(1/3)<K<(2N)^(1/3)`.
+Participants receive:
+- `pubkey.pem`: 1536-bit RSA public key (e=3)
+- `key.enc`: RSA encrypted symmetric key
+- `file.enc`: Encrypted ciphertext
 
- Afterwards we encrypt K with a RSA public key and convert result to big-endian octet string
- (Y=K^e mod N). The string will be 192 bytes long.
- Finally we XOR Y octet string with secret S, C=Y xor S (there may be an information
- in a challenge, which says that XOR was used as symmetric cipher).
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
- This is easily breakable. The key is to notice that a) there is no padding,
- b) by construction Y+N is a perfect cube, whose root is K (K^3 == Y+N).
+The following paths and files are available for download:
+- `/pubkey.pem`: 1536-bit RSA public key in PEM format
+- `/key.enc`: RSA encrypted symmetric key
+- `/file.enc`: Symmetric ciphertext
 
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download files via cURL
+curl -O http://<challenge-host>:8000/pubkey.pem
+curl -O http://<challenge-host>:8000/key.enc
+curl -O http://<challenge-host>:8000/file.enc
 
-By Kris Kwiatkowski, Cloudflare
+# Or download via wget
+wget http://<challenge-host>:8000/pubkey.pem
+wget http://<challenge-host>:8000/key.enc
+wget http://<challenge-host>:8000/file.enc
+```
 
-# Flag
-flag{saltstacksaltcomit5dd304276ba5745ec21fc1e6686a0b28da29e6fc}
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline cryptography analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
+
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline forensics analysis locally to uncover the flag.

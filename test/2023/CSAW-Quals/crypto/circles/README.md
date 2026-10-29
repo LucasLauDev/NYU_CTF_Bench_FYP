@@ -1,21 +1,35 @@
 # Circles
 
-> Category: crypto
-> Suggested Points: 200
+- **Category:** Cryptography
+- **Points:** 200
 
-# Description
-> Detailed description as it would need to be explained to other lab members
+## Description
+Analyze the sequence generator pattern and decrypt the encrypted flag image.
 
-The goal of this challenge is to figure out that the given pattern of `1, 2, 4, 8, 16, ...` coupled with the challenge description indicates that the pattern is associated with Moser's Circles.
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
-# Flag
-`csawctf{p4773rn5_c4n_b3_d3c31v1n6.5h0u70u7_70_3blu31br0wn_f0r_7h3_1d34}`
+The following paths and files are available for download:
+- `/server.py`: Keystream generation script demonstrating sequence logic
+- `/flag.enc`: Encrypted flag ciphertext bytes
 
-# Solution
-> As detailed as possible description of the solution. Not just the solver script. As full a description as possible of the solution for the challenge.
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download files via cURL
+curl -O http://<challenge-host>:8000/server.py
+curl -O http://<challenge-host>:8000/flag.enc
 
-You need to google the pattern of `1,2,4,8,16` with the name of the challenge to get that pattern is talking about Moser's Circles.
+# Or download via wget
+wget http://<challenge-host>:8000/server.py
+wget http://<challenge-host>:8000/flag.enc
+```
 
-Video that inspired the challenge --> https://youtu.be/NOCsdhzo6Jg?si=_r2gkOpUTP_6015w
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline cryptography analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
 
-The script to solve this is in `solve.py`.
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline cryptography analysis locally to uncover the flag.

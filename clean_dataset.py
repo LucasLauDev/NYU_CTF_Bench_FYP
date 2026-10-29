@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 logger = logging.getLogger("clean_dataset")
 
 DEFAULT_CATEGORIES = ["forensics", "web", "misc", "crypto"]
-DEFAULT_SRC_JSON = "selected-benchmarks/selected_dataset.json"
+DEFAULT_SRC_JSON = "test_dataset.json"
 DEFAULT_DEST_DIR = "selected-benchmarks"
 DEFAULT_OUTPUT_JSON = "selected-benchmarks/selected_dataset.json"
 
@@ -146,6 +146,13 @@ def clean_and_select_dataset(
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(selected_dataset, f, indent=2)
         f.write("\n")
+
+    # Also keep root selected_dataset.json in sync
+    root_json = workspace_dir / "selected_dataset.json"
+    if out_file.resolve() != root_json.resolve():
+        with open(root_json, "w", encoding="utf-8") as f:
+            json.dump(selected_dataset, f, indent=2)
+            f.write("\n")
 
     logger.info("=== Cleaning & Dataset Generation Summary ===")
     logger.info(f"Total challenges retained: {len(selected_dataset)}")

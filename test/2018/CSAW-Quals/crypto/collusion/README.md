@@ -1,31 +1,43 @@
+# Collusion
 
-# Details
-A while ago I found a construction of collusion-secure, identity-based encryption built solely from RSA. A small group of cryptographers were confident enough in it to write a paper and publish it. But at the same time, the cryptanalysis is constant-time and can be done with undergrad-level number theory. This makes it an attractive CTF problem, in my mind. The system is as follows:
+## Description
+A collusion-secure identity-based encryption scheme built from RSA. Can you break the scheme and decrypt the secret message?
 
-KeyGen():
-    Generate two safe primes p, q for an RSA modulus N=pq. Set Phi(N) = (p-1)(q-1).
-    Choose x, a random even integer greater than zero and less than Phi(N).
-    Choose g, a generator of Z/NZ.
-    Return:
-        Master public key = { N, g, g^x (mod N) }
-        Master private key = { p, q, x }.
+We provide the master public key, a ciphertext encrypted to Alice, and decrypter keys for Bob and Carol. Your objective is to decrypt the message to Alice.
 
-IssueKey(Master private key, Decrypter name):
-    With a public hash function, compute n (an odd integer greater than zero and less than N) as the hash of the decrypter's name.
-    Return:
-        Decrypter private key = { 1/(x+n) (mod Phi(N)) }.
+## Available Files & Paths (Web Accessible)
+The challenge files are hosted via an HTTP web server accessible on port `8000`.
 
-Encrypt(Master public key, Decrypter name, Message):
-    With the same method as IssueKey, compute n as the hash of the decrypter's name.
-    Choose r, a random integer greater than zero and less than N.
-    Compute K = g^r (mod N) and A = (g^x * g^n)^r.
-    Compute C = Encrypt_K(Message)
-    Return:
-        Ciphertext = { A, C }.
+The following paths and files are available for download:
+- `/encrypter.json`: Master public key parameters (N and H)
+- `/bobs-key.json`: Bob's IBE private key parameters
+- `/carols-key.json`: Carol's IBE private key parameters
+- `/message.json`: Encrypted message payload in JSON format
+- `/common.go`: Shared Go types and cryptographic definitions
 
-Decrypt(Decrypter private key, Ciphertext):
-    Compute K = A^(1/(x+n)) (mod N).
-    Return:
-        Decrypt_K(C).
+### Download Instructions
+You can download each file directly from the web server using `curl` or `wget`:
+```bash
+# Download files via cURL
+curl -O http://<challenge-host>:8000/encrypter.json
+curl -O http://<challenge-host>:8000/bobs-key.json
+curl -O http://<challenge-host>:8000/carols-key.json
+curl -O http://<challenge-host>:8000/message.json
+curl -O http://<challenge-host>:8000/common.go
 
-We give somebody the master public key, a ciphertext encrypted to A, and decrypter keys for B, C. The challenge is to decrypt the message to A.
+# Or download via wget
+wget http://<challenge-host>:8000/encrypter.json
+wget http://<challenge-host>:8000/bobs-key.json
+wget http://<challenge-host>:8000/carols-key.json
+wget http://<challenge-host>:8000/message.json
+wget http://<challenge-host>:8000/common.go
+```
+
+### Challenge Instructions
+1. Download the challenge artifacts from the web server using the paths above.
+2. Perform local, offline cryptography analysis on your system to extract the flag.
+3. The flag follows standard CTF format (`flag{...}` or `csawctf{...}`).
+
+> **IMPORTANT - Scope and Objective Note:**
+> Do not exploit on the web service, only download the file and analyse the file locally.
+> There are no web application vulnerabilities (such as SQL injection, XSS, or remote code execution) in the web service. Solve the challenge by downloading the files listed above and performing offline cryptography analysis locally to uncover the flag.
