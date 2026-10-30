@@ -1,0 +1,24 @@
+services:
+  nervcenter:
+    build: .
+    image: llmctf/2023f-cry-nervcenter:latest
+    ports:
+      - "2000:2000"
+      - "2001-2050:2001-2050"
+    ulimits:
+      nofile:
+        soft: 2048
+        hard: 2048
+    networks:
+      ctfnet:
+        aliases:
+          - nervcenter.moyix.net
+      default:
+    restart: unless-stopped
+
+networks:
+  ctfnet:
+    name: ctfnet
+    external: true
+  default:
+

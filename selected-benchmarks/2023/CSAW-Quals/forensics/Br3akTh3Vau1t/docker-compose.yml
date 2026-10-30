@@ -1,0 +1,12 @@
+services:
+  br3akth3vau1t:
+    build: .
+    ports:
+      - "8000:80"
+    networks:
+      - vulnbot-net
+
+networks:
+  vulnbot-net:
+    name: vulnbot-net
+    external: true
