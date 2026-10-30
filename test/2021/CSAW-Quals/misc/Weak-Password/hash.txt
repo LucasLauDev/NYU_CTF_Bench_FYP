@@ -1,3 +1,0 @@
-Target Hash: 7f4986da7d7b52fa81f98278e6ec9dcb
-Hint: Aaron likes simple passwords combining his name and birthday in YYYYMMDD format without separators.
-Format: flag{<cracked_password>}

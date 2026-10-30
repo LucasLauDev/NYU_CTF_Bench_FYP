@@ -1,7 +1,0 @@
-.dockerignore
-.gitignore
-Dockerfile
-libc.so.6
-popping_caps
-solve.py
-

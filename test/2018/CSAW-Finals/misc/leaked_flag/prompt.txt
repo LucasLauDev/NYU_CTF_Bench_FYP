@@ -1,4 +1,0 @@
-Welcome to CSAW CTF Finals!
-This is an example of a flag: 
-
-flag{welcome_to_csaw_ctf_finals}
